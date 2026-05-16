@@ -1,0 +1,20 @@
+@media (width <= 1400px):
+    .garden {
+        display: grid;
+        min-height: initial;
+}
+
+.garden{
+    display: grid;
+    min-height: 10vh;
+}
+#level-1 {
+    grid-template-columns: 1fr 1fr;
+}
+#level-2 {
+    grid-template-columns: 1fr 1fr;
+}
+#level-2 .peas {
+    grid-column: span 2;
+    grid-template-columns: 1fr 1fr;
+}
