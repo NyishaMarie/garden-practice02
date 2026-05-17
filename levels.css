@@ -18,3 +18,26 @@
     grid-column: span 2;
     grid-template-columns: 1fr 1fr;
 }
+#level-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#level-3 .peas {
+    grid-column: 1 / 2;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#level-3 .onions {
+    grid-column: 2 / 4;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#level-3 .tomatoes {
+    grid-column: 1 / 3;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#level-3 .lettuce {
+    grid-column: 3 / 4;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#level-3 .carrots {
+    grid-column: 1 / -1;
+    grid-template-columns: 1fr 1fr 1fr;
+}
