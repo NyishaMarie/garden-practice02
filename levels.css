@@ -41,3 +41,24 @@
     grid-column: 1 / -1;
     grid-template-columns: 1fr 1fr 1fr;
 }
+#level-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#level-4 .peas {
+    grid-column: 1 / 3;
+}
+#level-4 .onions {
+    grid-column: 3 / 4;
+    grid-row: span 2;
+}
+#level-4 .carrots {
+    grid-column: 4;
+    grid-row: 1 / 3;
+}
+#level-4 .tomatoes {
+    grid-column: 1 / 2;
+}
+#level-4 .lettuce {
+    grid-column: 2 / 3;
+}
